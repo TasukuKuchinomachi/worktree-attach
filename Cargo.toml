@@ -1,0 +1,15 @@
+[package]
+name = "worktree-attach"
+version = "1.0.0"
+edition = "2021"
+description = "A CLI tool to select and open git worktrees in VSCode"
+authors = ["Your Name <your.email@example.com>"]
+
+[[bin]]
+name = "worktree-attach"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+inquire = "0.7"
+tokio = { version = "1.0", features = ["full"] }
