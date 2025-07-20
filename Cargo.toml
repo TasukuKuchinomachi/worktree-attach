@@ -13,3 +13,4 @@ path = "src/main.rs"
 clap = { version = "4.0", features = ["derive"] }
 inquire = "0.7"
 tokio = { version = "1.0", features = ["full"] }
+git2 = "0.19"
